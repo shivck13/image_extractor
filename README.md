@@ -5,7 +5,7 @@
 * This module uses `selenium` webdriver module
 * Chrome Web Driver binary should be placed at "./webdriver/chromedriver.exe" (or equivalent)
 
-#Usage
+# Usage
 <pre>
 	<code>
 		from extractor import GoogleImageExtractor
