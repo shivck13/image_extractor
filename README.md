@@ -68,7 +68,7 @@ Note : parameter values of `str` type are `case-insensitive`
 4. *optional* `time` : str
 	* time of images (how old)
 	* possible values = `"any"` (default), `"past 24 hours"`, `"past week"` , `"past month"`, `"past year"`
-5. *optional* license : str
+5. *optional* `license` : str
 	* license type of images
 	* possible values = `"any"` (default), `"creative commons licenses"`, `"commercial & other licenses"`
 
