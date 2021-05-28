@@ -30,12 +30,13 @@ The constructor method for the class
 **Parameters**  
 1. *required* `search_query` : str
 	* The search term to search on Google Images
-2. *optional* `number_of_images` : int
-* Number of images to fetch
+2. *optional* `number_of_images` : int  
+	
+	* Number of images to fetch
 	* default = `10`
 3. *optional* `destination_folder` : str 
 	* directory to save image files or url .log file
-        * Will create the folder if doesn't exist
+	* Will create the folder if doesn't exist
 	* default = `current directory` [os.curdir]
 4. *optional* `url_only` : bool
 	* if set to `True` only urls will be saved not the actual image files
