@@ -149,7 +149,7 @@ class GoogleImageExtractor:
                     img_urls.append(urllib.parse.unquote(chunks[1]))
                     break
         
-        driver.close()
+        driver.quit()
 
         return img_urls
 
