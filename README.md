@@ -2,7 +2,7 @@
 * module `extractor` contains a class called `GoogleImageExtractor`
 
 # Requirements
-* Requires - [selenium](https://pypi.org/project/selenium/), [requests](https://pypi.org/project/requests/) and `urllib.parse`
+* Packages required - [selenium](https://pypi.org/project/selenium/), [requests](https://pypi.org/project/requests/) , `os` and `urllib.parse`
 * Chrome Web Driver binary compatible with your Chrome installation
 
 # Usage
