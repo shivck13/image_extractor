@@ -16,9 +16,8 @@ class GoogleImageExtractor:
 
 	# extensions to download
 	allowed_extensions : list = ["png", "gif", "jpg", "jpeg", "webp", "bmp", "svg", "ico"]
-
-	# Private Methods (intended : Python doesn't have access modifiers)
-
+		
+	# Constructor
 	def __init__(self, search_query : str, number_of_images : int = 10, destination_folder : str = os.curdir, url_only : bool = False) -> None:
 		self.__search_query = search_query
 		self.__number_of_images = number_of_images
