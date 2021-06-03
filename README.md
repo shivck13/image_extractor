@@ -24,7 +24,7 @@ Description of *`GoogleImageExtractor`* class
 
 ## Class Methods
 
-### Constructor `__init__(search_query, number_of_images, destination_folder, url_only)`
+### Constructor `__init__(search_query : str, number_of_images : int = 10, destination_folder : str = os.curdir, url_only : bool = False) -> None`
 The constructor method for the class
 
 **Parameters**  
@@ -42,7 +42,7 @@ The constructor method for the class
 	* if set to `True` only urls will be saved not the actual image files
 	* default = `False` 
 
-### `apply_safesearch(safe)`
+### `apply_safesearch(safe : bool = True) -> None`
 This method is used to turn safesearch on or off.
 
 **Parameters**  
@@ -50,7 +50,7 @@ This method is used to turn safesearch on or off.
 	* if set to `False` safesearch feature on Google Images will be disabled
 	* default = `True`
 
-### `apply_search_filters(size, color, type, time, license)`
+### `apply_search_filters(size : str = "any", color : str = "any", type : str = "any", time : str = "any", license : str = "any") -> None`
 This method is used to set the search parameters
 
 Note : parameter values of `str` type are `case-insensitive`
