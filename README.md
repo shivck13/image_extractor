@@ -3,7 +3,7 @@
 
 # Requirements
 * This module uses `selenium` webdriver module
-* Chrome Web Driver binary should be placed at "./webdriver/chromedriver.exe" (or equivalent)
+* Chrome Web Driver binary compatible with your Chrome installation
 
 # Usage
 <pre>
@@ -82,7 +82,8 @@ ______
 ## Class Variables
 
 ### `webdriver_bin_path` : str
-This is the binary path for chrome webdriver
+This is the binary path for chrome webdriver  
+It can be chnaged to point to the chromedriver binary placed in your system
 
 ### `allowed_extensions` : list
 This is `list` of allowed image extensions
