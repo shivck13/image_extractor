@@ -83,8 +83,9 @@ ______
 
 ### `webdriver_bin_path` : str
 This is the binary path for chrome webdriver  
-It can be chnaged to point to the chromedriver binary placed in your system
+It can be changed to point to the chromedriver binary placed in your system
 
 ### `allowed_extensions` : list
 This is `list` of allowed image extensions
-default = ["png", "gif", "jpg", "jpeg", "webp", "bmp", "svg", "ico"]
+default = ["png", "gif", "jpg", "jpeg", "webp", "bmp", "svg", "ico"]  
+Can be modified as per the needs
